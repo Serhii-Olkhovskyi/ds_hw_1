@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ds-hw-1"
+version = "0.1.0"
+description = ""
+authors = ["Serhii <komkoraz@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ds_hw_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.23.1"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
